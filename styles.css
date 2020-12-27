@@ -14,9 +14,9 @@ body {
     margin: auto;
 }
 
-.gif{
-    max-width: 200px;
-    ;
+.background{
+    max-block-size: 450px;
+    float: right;
 }
 
 .textarea .txt-input{
