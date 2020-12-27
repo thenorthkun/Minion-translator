@@ -1,0 +1,46 @@
+body {
+    font-family: 'Fredoka One', cursive;
+}
+.heading{
+    padding-left: 1rem;
+    font-size: 4rem ;
+}
+.heading .mini {
+
+    max-width: 150px;
+    display: inline-flex;
+    vertical-align: middle;
+    /* padding-left: 9rem; */
+    margin: auto;
+}
+
+.gif{
+    max-width: 200px;
+    ;
+}
+
+.textarea .txt-input{
+    width: 35%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.section{
+    padding-left: 1rem;
+}
+
+.output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 35%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.output-text{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}

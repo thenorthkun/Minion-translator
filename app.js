@@ -8,12 +8,10 @@
 
 // alert(welcomeMessage)  /* OUTPUT */
 
-var btnTranslate = document.querySelector("#btn-translate") 
-var txtInput = document.querySelector("#txt-input")
-var outputDiv = document.querySelector('#output')
+var txtInput = document.querySelector(".txt-input")
+var outputDiv = document.querySelector(".output")
+var btnTranslate = document.querySelector(".btn-translate") 
 
-
-// var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" // Mock server
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
