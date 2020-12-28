@@ -27,14 +27,14 @@ function errorHandler(error) {
 
 function clickHandler() {
 
-    var inputText = txtInput.value;  //taking input
+    var inputText = txtInput.value;  //taking input or reading text
 
 
     // calling server for processing
     fetch(getTranslationURL(inputText))
-    .then(response => response.json())
+    .then(response => response.json()) //converting reponse into JSON form
     .then(json => {
-        var translatedText = json.contents.translated;
+        var translatedText = json.contents.translated; //take translated test from that JSON
         outputDiv.innerText = translatedText;  //output
     })
     .catch(errorHandler)
