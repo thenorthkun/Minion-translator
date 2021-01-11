@@ -37,7 +37,7 @@ function clickHandler() {
         var translatedText = json.contents.translated; //take translated test from that JSON
         outputDiv.innerText = translatedText;  //output
     })
-    .catch(errorHandler)
+    .catch(errorHandler)n
     
 }
 
